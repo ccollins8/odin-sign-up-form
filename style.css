@@ -1,0 +1,20 @@
+body {
+    font-family: sans-serif
+}
+
+.section-1 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+form input {
+    display: block;
+}
+
+form div {
+    display: flex;
+}
+
+form p {
+    margin-right: 50px;
+}
