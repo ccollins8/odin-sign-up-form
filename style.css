@@ -1,10 +1,32 @@
 body {
-    font-family: sans-serif
+    font-family: sans-serif;
+    background-color: #F9FAFB;
+}
+
+.content {
+    display: flex;
+}
+
+.image-section {
+  margin-right: 100px;
+}
+
+img {
+    
 }
 
 .section-1 {
     font-size: 32px;
     font-weight: 800;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+form fieldset {
+    background-color:#FFFFFF ;
 }
 
 form input {
@@ -17,4 +39,13 @@ form div {
 
 form p {
     margin-right: 50px;
+    color: rgb(37, 30, 30);
+    font-size: 14px;
+    opacity: 2;
+}
+
+form button {
+    color: white;
+    background-color: #596D48;
+    padding: 10px 40px
 }
