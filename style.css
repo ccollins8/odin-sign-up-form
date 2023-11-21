@@ -1,23 +1,36 @@
 body {
     font-family: sans-serif;
-    background-color: #F9FAFB;
+    margin: 0;
+    padding: 0;
 }
 
 .content {
     display: flex;
-}
-
-.image-section {
-  margin-right: 100px;
-}
-
-img {
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    background-color: #F9FAFB;
     
 }
 
-.section-1 {
-    font-size: 32px;
+.image-section {
+    background-image: url("images/sign-up.jpg");
+    width: 100%;
+    background-size: cover;
+}
+
+.text-section {
+    padding: 40px;
+    font-size: 24px;
     font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-1 {
+    
 }
 
 fieldset {
@@ -47,5 +60,10 @@ form p {
 form button {
     color: white;
     background-color: #596D48;
-    padding: 10px 40px
+    padding: 10px 40px;
+    margin-top: 32px;
+}
+
+.log-in {
+    margin-top: 32px;
 }
